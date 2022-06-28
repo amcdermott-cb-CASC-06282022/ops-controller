@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "amcdermott-cb-CASC-06282022-ops-controller"
 description: "CloudBees CI configuration bundle for the amcdermott-cb-CASC-06282022 ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/amcdermott-cb-casc-06282022/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
